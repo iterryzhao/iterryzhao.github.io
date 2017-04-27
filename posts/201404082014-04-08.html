@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="潜光的个人博客">
+    <meta name="keyword" content="null">
+    <meta name="theme-color" content="#600090">
+    <meta name="msapplication-navbutton-color" content="#600090">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
+    <link rel="alternate" type="application/atom+xml" title="潜光" href="/atom.xml">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <title>
+        
+        抄书—《“偷”师学艺》｜潜光
+        
+    </title>
+
+    <link rel="canonical" href="http://terryzhao.com/posts/201404082014-04-08.html">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog-style.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+
+<style>
+
+    header.intro-header {
+        background-image: url('//o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg')
+    }
+</style>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="" class="animated fadeIn">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "true" data-istags="false
+" data-ishome = "false" >
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand animated pulse" href="/">
+                <span class="brand-logo">
+                    潜光
+                </span>
+                's Blog
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <!-- /.navbar-collapse -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+					
+                    
+                        
+							
+                        <li>
+                            <a href="/archive/">archive</a>
+                        </li>
+							
+						
+                    
+                        
+							
+                        <li>
+                            <a href="/tags/">Tags</a>
+                        </li>
+							
+						
+                    
+					
+					
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+//    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+<!-- Main Content -->
+
+<!--only post-->
+
+
+<img class="wechat-title-img"
+     src="/images/blog-bg-black-run.jpg">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('/images/blog-bg-black-run.jpg')
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>抄书—《“偷”师学艺》</h1>
+                    
+                    <span class="meta">
+                         作者 潜光
+                        <span>
+                          日期 2014-04-08
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            抄书—《“偷”师学艺》
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <p>本文摘抄的是美国亚马逊年度畅销书《“偷”师学艺—10个你一定要知道的创意秘籍》中的内容。</p>
+<p>这本书是上次去崇明的时候领导拿给我看的，在车上我随便翻了一下，感觉有很多励志的鸡血成分在里面，便没有太用心。恰逢最近买了新的rmbp，在整理自己的东西，用了一个小时翻完后，觉得里面还是有一些有意思的想法的，重点在于你怎么实践他。</p>
+<p>遂挖坑抄书，无论如何，这也是个过程，getting things done is good.</p>
+<p>[TOC]</p>
+<h2 id="书评总结">书评总结</h2>
+<p>整本书我最喜欢的一句话是：</p>
+<blockquote>
+<p>关于艺术，唯一我要学习的就是我想模仿能窃取的那些创意</p>
+</blockquote>
+<p>关于生活，我们唯一要关注的就是我们想学习能模仿的那些部分。给我的感受就是，要乐观，不管是怎么样的人，都有他值得你学习的地方，不完美就是这个世界最大的完美之处。接受不完美比挣扎着寻求完美/颠覆，更需要勇气和能力。</p>
+<p>对内容做个简单总结。</p>
+<ol style="list-style-type: decimal">
+<li><p>作者强调<strong>没有什么是原创的</strong>，倡导放开所谓原创的压力，从多个偶像身上持续学习，最终形成自己的作品。这个值得学习的Action在于：弄一个自己的收集平时觉得好东西的文件夹，积累素材。（!!!TODO）</p></li>
+<li><p>作者主张<strong>“在行动中认识自己”</strong>，认为要多实践才能了解自己，要加黄自己就是自己的偶像，动手编写、创造自己认为喜欢的作品，通过复制别人的风格、理解别人的思维方式，将偶像的作品运用到自己的作品中。</p></li>
+<li><p>作者倡导<strong>“自己动手，远离电脑，解放自己”</strong>，号召大家多动手，在没有明确的灵感前，不要开始使用电脑。就像做PPT前，我一定是用草纸画好草稿一样，人才是灵感的来源，电脑只是实现灵感的工具。为了寻找灵感，我们还需要解放自己，学会作者所说的“创造性的拖延”，关注自己的渴望、自己的兴趣。</p></li>
+</ol>
+<p>互联网时代，除了努力工作，有一点非常重要的是，我们可以突破地理限制，将我们的作品在网络上进行分享。世界越来越小，要与人为善，要给不断给自己信心，要每天写日志……不要欠债、让日常的工作让你的生活更有规律，这就是作者说的“按部就班”。</p>
+<p>最后，<strong>创意是一种减法</strong>，可以通过一定的约束让自己更专注……</p>
+<p>150页的书，10个小章节，仅仅围绕“创意是模仿出来的”这样一个话题来阐述，来点貌似新奇的想法、来电鸡血、来点貌似行动指南……基本上也就是把一节TED演讲总结成了一本书，感觉畅销书都很难逃出这个框架，特别是自称美国的。（PS.日本和韩国的书也有类似特色，有机会分享一下心得）</p>
+<p>Anyway，重点是你学到了什么，而不是书怎么样。</p>
+<h2 id="后记感想">后记感想</h2>
+<p><strong>1. 没有了解就无法评判，没有输出就无法吸收</strong> 拿到书以后，花了2分钟翻完，觉得又是一本励志类的畅销书，本能排斥；花了1个小时阅读以后，觉得有些想法不错；花了4个小时完成这篇博客之后，觉得自己真的有学到不少，至少还有个作品出来（算是吧）。</p>
+<p><strong>2. 要好好整理日常收集的内容，做好积累</strong> 领导时常会说，自己能讲有的聊是平时关注的多，要求我多积累。我想这本书也是给我这样的提醒，需要好好整理收集自己日常看到的文案、活动、广告形式等信息，创建属于自己的收藏夹。可以用Evernote来整理文本和图片类别的，视频的话可以放在公共网站上。</p>
+<p><strong>3. 结果导向说的容易做的难</strong> 这篇博客从开始到结束，期间晃啊晃，时常偏离目标，被其他东西所吸引，甚至延伸出其他想要做的事情。注意力难以集中，兴趣太广泛，时常管不住自己。（分明是拖延症病重……）</p>
+<p><strong>4. 单细胞单任务动物</strong> 在写的过程中，因为白天上班、晚上回来还做点其他事情，所以整个文章从周二晚上写到周五晚上。总结一句话就是，在下班有限的时间里，我很难同时做2个事情、有2个目标。<strong>这个我想还是要逐步培养自己的</strong>，这篇文章完成之后，可以尝试，除了写blog每天多花半小时来学ROR。</p>
+<p>永远记住，找到生活中值得学习的，行动、实践，在过程中了解自己。 结合自己的兴趣点，挖坑、填坑，宁要一个完成(填坑)也不要千万个开始(挖坑)，人生是一个不断优化的过程。</p>
+<p>抄书的部分，内容比较多，如果没有兴趣的朋友，看看目录，看到这里也就差不多了。</p>
+<hr>
+<h2 id="抄书">抄书</h2>
+<blockquote>
+<p>“艺术家是个小偷” — 帕布罗·毕加索</p>
+</blockquote>
+<blockquote>
+<p>不成熟的诗人模仿； 成熟的诗人学会“剽窃” 不作为的诗人站务了他歌颂的对象； 而好的诗人能让我们获得更好的感受， 或者至少能让读者耳目一新 好的诗人把他的剽窃品 组合成独一无二的完整感觉 而非灵感的碎片 —— 托马斯·斯特恩斯·艾略特</p>
+</blockquote>
+<h3 id="所有的建议都是我的自传">所有的建议都是我的自传</h3>
+<p>我有一个看法，那就是当人们你某些建议的时候，其实他们是在对过去的自己提意见。</p>
+<h3 id="偷师学艺">① “偷”师学艺</h3>
+<h4 id="像艺术家一样观察世界">像艺术家一样观察世界</h4>
+<p>首先，你要找到你认为值得去“偷窃”的东西。</p>
+<p>所有事物的关键就是你要怎么做……在你的眼里，只有值得窃取和不知道窃取的创意之分。</p>
+<blockquote>
+<p>关于艺术，唯一我要学习的就是我想模仿能窃取的那些创意</p>
+</blockquote>
+<div class="figure">
+<img src="/images/07-23-37-1.jpg" alt="07-23-37">
+<p class="caption">07-23-37</p>
+</div>
+<h4 id="没有什么是原创的">没有什么是原创的</h4>
+<p>一个好的艺术家应该明白：任何好的创意绝非是无中生有的，所有的创意关键都是它从哪里来的，没有什么真正原创的。</p>
+<blockquote>
+<p>所有应该说的话都已经说过了，自是没有人在听，所以所有的话不得不再说一遍——法国作家安德鲁·基德</p>
+</blockquote>
+<p>既然我们不用负担完全原创的压力，那么我们就不用创造那些“无中生有”的事物……</p>
+<h4 id="创意的来源">创意的来源</h4>
+<p>所有新的想法都不过是以前的一个或者几个创意的重组……事实上，你的人生是你所喜欢和希望的那些事物的集合体，你深受哪些事物的影响。</p>
+<h4 id="进去的是垃圾出来的也是垃圾">进去的是垃圾，出来的也是垃圾</h4>
+<p>艺术家是收集爱好者……他们绝非仅仅是存储者……他们只挑选那些他们真正喜爱的东西收集起来。你的工作就是收集好的创意。你收集得越多，以后当你需要的时候，你才能从众挑选合适的来使用。</p>
+<blockquote>
+<p>不管是那些能与你引起共鸣的创意还是能激发你想象力的想法，你都要想办法学习。 好好去欣赏老电影、新电影、各种音乐、书籍、绘画、诗歌、梦想、胡言乱语、建筑、桥梁、路标、数目、云彩、水流、光线和阴影。 找到那些能震撼你心灵的事物，如果你能一直这么做，你的‘剽窃’品将成为真正的原创 —— 吉姆·贾木许（美国独立制片人）</p>
+</blockquote>
+<h4 id="爬上自家院里的那棵树">爬上自家院里的那棵树</h4>
+<p>你需要针对某一个领域中的思想者进行深思，那些你真正喜欢的思想者。好好研究关于这个思想者的所有信息，然后找到这个思想者喜欢的三个人，在研究与他们相关的一切事物，并且尽可能多地重复这个过程。</p>
+<h4 id="自我学习">自我学习</h4>
+<p>你要对这个世界保持好奇，积极看待事物，仔细找出那些相关的信息，你要比其他任何人都研究得更加深入，这样你才会领先于其他人。</p>
+<h4 id="把你的偷取行为留在以后使用">把你的“偷取”行为留在以后使用</h4>
+<p>你需要一个“偷窃”文件夹……专门用来记录你从别人那里“偷取”来的素材</p>
+<h3 id="在行动中认识自我">② 在行动中认识自我</h3>
+<h4 id="好好做事理解你自己">好好做事，理解你自己</h4>
+<p>从我的经验来看，只有当我们在做事或工作的时候，我们才能更好地了解我是谁。</p>
+<h4 id="伪装一下直到你完成目标">伪装一下，直到你完成目标</h4>
+<p>我很喜欢这句短语，可以做两种诠释： 1. 成功之前，要假装你还没有完成——在你成功完成某件事之前，你都要伪装，一直到在其他人真的做成了这件事 2. 假装你一直在做某件事，知道你真的做成了某件事</p>
+<p>你要为了你喜欢的工作而伪装，而不是你现在拥有的工作，你要为你自己想做的工作而开始努力。</p>
+<h4 id="开始复制">开始复制</h4>
+<p>剽窃是指你窃取他人的作品，并声称是自己的作品。而模仿就像是重装，就像是机械工程师把一辆汽车拆开，仔细观察它是如何运作的。</p>
+<blockquote>
+<p>开始练习复制那些你所喜欢的。不断模仿、模仿、再模仿，最后你回从模仿中找到自己的特色 —— 山本耀司（潮流设计师）</p>
+</blockquote>
+<p>那些不想模仿的人，最终什么也做不出来。</p>
+<ol style="list-style-type: decimal">
+<li><p>第一，你必须想明白你像模仿谁。你并不能只单纯模仿一个偶像，你要向所有偶像学习。作家威尔森·米兹曾经说过，如果你只学习一个作家的手法，那就是剽窃，但是如果你模仿多个作家的创作，那就是研究。</p></li>
+<li><p>第二，你要明确自己希望模仿些什么。不要只学习创作风格，更重要的是藏在风格后面的思路。</p></li>
+</ol>
+<h4 id="模仿不是为了讨好">模仿不是为了讨好</h4>
+<p>在某种程度上，你必须从完全模仿你的偶像转向为向你的偶像看齐。模仿就好像复制，而看齐就是当你模仿到一定程度以后，将技能内化为自己的 <img src="/images/123.jpg" alt="123"></p>
+<p>仅仅模仿你的偶像并不是在阿谀奉承他们。通过思考，把他们的作品运用到自己的作品中才是对偶像真正的赞美。</p>
+<h3 id="写一本你自己想读的书">③ 写一本你自己想读的书</h3>
+<h4 id="写你喜欢的故事">写你喜欢的故事</h4>
+<p>最好的建议不是写你了解的故事，而是写你喜欢的故事。写那些你最喜欢的故事—写你想读的故事。这个建议也同样适用于你的生活和工作：无论何时，当你觉得失落茫然，无所适从，就问你自己“好的故事在哪儿？”</p>
+<p>当我们很喜欢某件作品的时候，我们如饥似渴。我们渴望能有续集，为什么不把这种渴望转化成为现实呢？</p>
+<h3 id="自己动手">④ 自己动手</h3>
+<h4 id="远离电脑">远离电脑</h4>
+<p>我们需要运动，就好像我们是在用整个身体干某件事情，而不只是我们的双手。</p>
+<p>书里的每一首诗都是作为报纸文章的形式呈现的，我始终是创作者。这个制作过程唤醒了我众多的感受：我手中拿着报纸，文字在我的视线下小时，那些不小心溅出来的钢笔墨点和墨水的味道——就像是一种魔法。当我在创作诗歌的时候，我没有工作之感，却仿佛在演一出剧目。</p>
+<p>书就是这样出来的，现实用双手，然后用电脑，再用手，再用电脑。这是一场人机互动的循环。一旦你获取了灵感，之后便可以到你的电脑工作桌前工作了，使用电脑来处理后续的事物然后打印出来。当你感觉失去热情的时候，感觉回到你手工工作桌上去，去“玩”一会儿。</p>
+<h3 id="编外计划和兴趣爱好十分重要">⑤ 编外计划和兴趣爱好十分重要</h3>
+<h4 id="学会创造性地拖延">学会创造性地拖延</h4>
+<blockquote>
+<p>放下工作，这将有助于你专注自己的思想和想法</p>
+</blockquote>
+<p>留出时间来浪费，放逐自我，到处走走。你永远不知道下一站能指引你走向何方。</p>
+<h4 id="不要丢失你自己">不要丢失你自己</h4>
+<blockquote>
+<p>ATTENTION:Do not leave your longings unattended 请记住不要忽视你的渴望</p>
+</blockquote>
+<blockquote>
+<p>向前看时理不清头绪的，只有向后看才能将事情联系起来 史蒂夫·乔布斯</p>
+</blockquote>
+<p>如果你同时对两件事或者三件事充满热情，大可不必对此从中做出选择。不要抛弃其中的任何一个。在你的一生中都要保持热情。</p>
+<p>对待这些感兴趣的事情，如果你只对其中的某一件花时间和精力，而放弃了其他的，那么久而久之，你就会开始觉得虚幻和烦闷。</p>
+<p>不要放弃自我。不要担心自己的计划国语宏伟或者工作太过系统。 不要担心如何将碎片整合成一个整体——把你所做的工作组合成一个整体，那就是你所做的。终有一天，当你回顾往昔，你会发现一切都充满意义。</p>
+<h3 id="秘诀努力工作并且与人分享">⑥ 秘诀：努力工作并且与人分享</h3>
+<h4 id="起步阶段保持低调是件好事">起步阶段保持低调是件好事</h4>
+<p>好好享受和利用那段默默无闻的时光吧。</p>
+<h4 id="一个不用保密的法则">一个“不用保密”的法则</h4>
+<p>这是一个分为两步的过程，第一步，“好好做，做好的设计”；第二部，“与人分享”。现在，相对来说这一本非常简单：把你的作品上传网络即可。</p>
+<p>当你把自己的成功与别人分享时，人们会非常快乐。有时候，在这方面深谙此道，人们会对你的方法推崇备至，进而购买你推荐的产品。</p>
+<h3 id="不用受制于地理位置">⑦ 不用受制于地理位置</h3>
+<h4 id="构建自己的世界">构建自己的世界</h4>
+<p>通过推特和谷歌浏览器，我克服了地理上的局限。 卡夫卡曾经这样写道：“你是否离开家并不重要，坐在书桌边仔细聆听。甚至不用聆听，只是等待。其实也非等待，只是静静地独处一室。你会发现，世界会向你展示它的一切。”</p>
+<p>我总是揣着一本书、一只钢笔和一个笔记本，我一只很享受那种独处和被束缚感。</p>
+<h4 id="离开家">离开家</h4>
+<p>当你每天重复你的生活，你的大脑会因为“太过舒适”而变得慵懒。旅行能让世界焕然一新，当你发现了崭新的世界便会更加努力地工作。</p>
+<h3 id="与人为善现代世界变得越来越小">⑧ 与人为善（现代世界变得越来越小）</h3>
+<h4 id="多交朋友少树敌人">多交朋友少树敌人</h4>
+<blockquote>
+<p>我留在这里只有一个理由：到这里交朋友</p>
+</blockquote>
+<p>用什么办法在网络上战胜你的敌人？那就是忽略他们。如何在网络中交到朋友，尽量赞美他们。</p>
+<h4 id="接近天才">接近天才</h4>
+<p>你需要 - 好奇心 - 热心肠 - 耐力 - 大智若愚</p>
+<p>如果你发现在你身边，自己就是那个最棒的人，那么你就应该和另外的一些朋友多相处。</p>
+<h4 id="不要浪费时间做别的事情">不要浪费时间做别的事情</h4>
+<blockquote>
+<p>如果你对他人不满，用你的实际行动去表达 ——安德鲁·韬兹</p>
+</blockquote>
+<h4 id="给偶像写信">给偶像写信</h4>
+<p>也许你的偶像会看到你的作品，也许看不到。也许他们会回复你，也许不会回复。重要的是，你展示了你对偶像的喜爱但是不求任何回报，同时你还创作了新的作品。</p>
+<h4 id="为自己保留一个装满表扬的文件夹">为自己保留一个装满表扬的文件夹</h4>
+<p>生活是孤独的，经常充斥着让人沮丧的事情和各种拒绝。的确，这就是人生，但是当人们赞美你的作品的时候，你还是能收到极大的鼓舞。</p>
+<p>你可以试试看：不要总过着被否定和拒绝的生活，为自己保留一个装满赞美的文件夹。 ### ⑨ 按部就班，只有这样才能把事情做好 #### 好好照顾自己</p>
+<p>让自己充满创意需要大量的精力，如果你把你的精力花费在其他事情上，那么你的创意则会精力不够。</p>
+<p>尼尔·杨这样唱道：“燃烧生命比慢慢退化来的好。”我说最好是慢慢燃烧，因为还要看看我们的子孙呢。</p>
+<h4 id="远离债务">远离债务</h4>
+<h4 id="保住你白天的工作">保住你白天的工作</h4>
+<p>一份白天的工作能让你赚钱，能让你了解这个世界，并且让你的生活规律。在经济上没有压力也使你可以在你的艺术创作中更加自由。</p>
+<p>创造并拥有规律的时间比拥有大把大把的时间更有用。</p>
+<h4 id="为你自己设置一张日历">为你自己设置一张日历</h4>
+<p>一张日历可以帮助你来计划你的工作，让你专注于你的目标，并且按照计划来实施而不会脱离轨道。</p>
+<h4 id="记得每天写日志">记得每天写日志</h4>
+<p>正如你需要了解未来时间的发展，你也需要对于已经过去的事情有清晰的认识。在古代，这样的日志被称为航海日志，是为了让水手按照正确的航海路线航行病记录他们最远航行到哪里而准备的，这也是你正在做的事情——记录你的小船最远到了哪里。</p>
+<h4 id="成功的婚姻">成功的婚姻</h4>
+<p>和谁结婚是你这一生中要做的决定最重要的一个。</p>
+<h3 id="创意是一种减法">⑩ 创意是一种减法</h3>
+<h4 id="选择性地遗忘一些事情">选择性地遗忘一些事情</h4>
+<p>那些站在时代前沿的、优秀的人，往往是能够遗忘某些事情的人，所以他们可以集中精力关注那些对他们来说真正重要的事情。没有什么会比你的想法受到限制更让人难受的了，但是你可以随心所欲地做任何事的这个念头本身就是彻底错误的。</p>
+<p>能帮助你跨越创意障碍的方法就是去一个简单的地方，为自己设置一些约束。 &gt;告诉你自己，你有这个世界上所有的时间、所有的钱、调色板里所有的颜色，所有你想要的一切——二就是这些扼杀了你的创意 &gt; —— 杰克·怀特（美国摇滚乐手）</p>
+<p>我们普通人对于艺术作品的反应往往是艺术家们对于限制他们的食物进行的斗争。</p>
+<h4 id="现在该怎么做">现在该怎么做?</h4>
+<ul>
+<li>散散步</li>
+<li>开始使用“偷窃”来的文件夹</li>
+<li>去图书馆</li>
+<li>买一本笔记本然后好好使用</li>
+<li>为自己设置一张日历</li>
+<li>开始记录你的日志</li>
+<li>把复印本放得远一点</li>
+<li>在网上写博客</li>
+<li>小睡一会儿</li>
+</ul>
+
+                <hr>
+                
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/posts/201404132014-04-13.html" data-toggle="tooltip" data-placement="top"
+                           title="失败的循环……">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/posts/201404052014-04-05.html" data-toggle="tooltip" data-placement="top"
+                           title="抄书 - 《晨间日记的奇迹》">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#书评总结"><span class="toc-text">书评总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#后记感想"><span class="toc-text">后记感想</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#抄书"><span class="toc-text">抄书</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#所有的建议都是我的自传"><span class="toc-text">所有的建议都是我的自传</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#偷师学艺"><span class="toc-text">① “偷”师学艺</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#像艺术家一样观察世界"><span class="toc-text">像艺术家一样观察世界</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#没有什么是原创的"><span class="toc-text">没有什么是原创的</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#创意的来源"><span class="toc-text">创意的来源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#进去的是垃圾出来的也是垃圾"><span class="toc-text">进去的是垃圾，出来的也是垃圾</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#爬上自家院里的那棵树"><span class="toc-text">爬上自家院里的那棵树</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#自我学习"><span class="toc-text">自我学习</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#把你的偷取行为留在以后使用"><span class="toc-text">把你的“偷取”行为留在以后使用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#在行动中认识自我"><span class="toc-text">② 在行动中认识自我</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#好好做事理解你自己"><span class="toc-text">好好做事，理解你自己</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#伪装一下直到你完成目标"><span class="toc-text">伪装一下，直到你完成目标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#开始复制"><span class="toc-text">开始复制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#模仿不是为了讨好"><span class="toc-text">模仿不是为了讨好</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#写一本你自己想读的书"><span class="toc-text">③ 写一本你自己想读的书</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#写你喜欢的故事"><span class="toc-text">写你喜欢的故事</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#自己动手"><span class="toc-text">④ 自己动手</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#远离电脑"><span class="toc-text">远离电脑</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#编外计划和兴趣爱好十分重要"><span class="toc-text">⑤ 编外计划和兴趣爱好十分重要</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#学会创造性地拖延"><span class="toc-text">学会创造性地拖延</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#不要丢失你自己"><span class="toc-text">不要丢失你自己</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#秘诀努力工作并且与人分享"><span class="toc-text">⑥ 秘诀：努力工作并且与人分享</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#起步阶段保持低调是件好事"><span class="toc-text">起步阶段保持低调是件好事</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#一个不用保密的法则"><span class="toc-text">一个“不用保密”的法则</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#不用受制于地理位置"><span class="toc-text">⑦ 不用受制于地理位置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#构建自己的世界"><span class="toc-text">构建自己的世界</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#离开家"><span class="toc-text">离开家</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#与人为善现代世界变得越来越小"><span class="toc-text">⑧ 与人为善（现代世界变得越来越小）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#多交朋友少树敌人"><span class="toc-text">多交朋友少树敌人</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#接近天才"><span class="toc-text">接近天才</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#不要浪费时间做别的事情"><span class="toc-text">不要浪费时间做别的事情</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#给偶像写信"><span class="toc-text">给偶像写信</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#为自己保留一个装满表扬的文件夹"><span class="toc-text">为自己保留一个装满表扬的文件夹</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#远离债务"><span class="toc-text">远离债务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#保住你白天的工作"><span class="toc-text">保住你白天的工作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#为你自己设置一张日历"><span class="toc-text">为你自己设置一张日历</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#记得每天写日志"><span class="toc-text">记得每天写日志</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#成功的婚姻"><span class="toc-text">成功的婚姻</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创意是一种减法"><span class="toc-text">⑩ 创意是一种减法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#选择性地遗忘一些事情"><span class="toc-text">选择性地遗忘一些事情</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#现在该怎么做"><span class="toc-text">现在该怎么做?</span></a></li></ol></li></ol></li></ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <br>
+                <ul class="list-inline text-center">
+                
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+                
+                
+
+                
+                    <li>
+                        <a target="_blank" href="http://weibo.com/slowlifeterry">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                
+                    <li>
+                        <a target="_blank"  href="https://github.com/iterryzhao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; 潜光 2017
+                    <br>
+                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
+                    <br>
+                    Theme by <a href="https://haojen.github.io/">Haojen Ma</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/blog.js"></script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://terryzhao.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','null','2.0.0');
+</script>
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!--wechat title img-->
+<img class="wechat-title-img" src="null">
+</body>
+
+</html>

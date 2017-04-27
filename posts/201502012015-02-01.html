@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="潜光的个人博客">
+    <meta name="keyword" content="null">
+    <meta name="theme-color" content="#600090">
+    <meta name="msapplication-navbutton-color" content="#600090">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
+    <link rel="alternate" type="application/atom+xml" title="潜光" href="/atom.xml">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <title>
+        
+        The Millionaire Fastlane - 读记 - Part1｜潜光
+        
+    </title>
+
+    <link rel="canonical" href="http://terryzhao.com/posts/201502012015-02-01.html">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog-style.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+
+<style>
+
+    header.intro-header {
+        background-image: url('//o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg')
+    }
+</style>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="" class="animated fadeIn">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "true" data-istags="false
+" data-ishome = "false" >
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand animated pulse" href="/">
+                <span class="brand-logo">
+                    潜光
+                </span>
+                's Blog
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <!-- /.navbar-collapse -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+					
+                    
+                        
+							
+                        <li>
+                            <a href="/archive/">archive</a>
+                        </li>
+							
+						
+                    
+                        
+							
+                        <li>
+                            <a href="/tags/">Tags</a>
+                        </li>
+							
+						
+                    
+					
+					
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+//    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+<!-- Main Content -->
+
+<!--only post-->
+
+
+<img class="wechat-title-img"
+     src="/images/blog-bg-black-run.jpg">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('/images/blog-bg-black-run.jpg')
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>The Millionaire Fastlane - 读记 - Part1</h1>
+                    
+                    <span class="meta">
+                         作者 潜光
+                        <span>
+                          日期 2015-02-01
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            The Millionaire Fastlane - 读记 - Part1
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <p>[TOC]</p>
+<p>知乎上有一个问题叫《什么是穷人思维》,我很喜欢其中<a href="http://www.zhihu.com/question/26980862/answer/34857629" title="去知乎看看完整版" target="_blank" rel="external">尼克余的回答</a>，其中提到：</p>
+<pre><code>你真的想知道怎么实现财务自由么？请移尊步，去读读MJ DeMacro的&lt;The Millionaire Fastlane&gt;，作者比我说的好一万倍。
+
+10000个人点进来看我的答案，5000个人不以为然，1000个人会在评论区大放阙词，对我进行人身攻击，3000个人会看不懂我在说什么，剩下1000个人会认真去研究我的答案是不是对的。这1000个人，可能只有500个人真的对我说的快车道感兴趣。这500人中，其中400个发现书只有英文的就放弃了。剩下100个人，只有10个能看懂书，并愿意为之付出实践。大概其中有2个人能成功实现财富自由。</code></pre>
+<p>遂，在我的iPad Mini 2上开始阅读起这边书了。</p>
+<p><strong>这真是蹩脚的开头，看完后一定要重新写一下读后感！！！</strong></p>
+<hr>
+<pre><code>If you want to keep getting what you&#39;re getting, keep doing what you are doing.</code></pre>
+<p><strong>是时候停止现在的做法，做出改变，行动！</strong></p>
+<h2 id="part1-get-rich-slow-is-get-rich-old">Part1 “Get rich slow” is Get Rich Old</h2>
+<h3 id="part1.chapter1">Part1.Chapter1</h3>
+<p>作者指出Get Rich Slow就是一场骗局，用你的时间生命作为赌注，用你的年轻、灵敏和生机勃勃的青春来赚取年老后所谓的富有，注定是一个失败者游戏。 ### Part.Chapter2 这一章作者开始讲故事了。 命运改变于90秒的瞬间，一个年轻的路虎拥有者告诉年少的作者：</p>
+<pre><code>Sensing relief that I wasn&#39;t a teenage derelict, the owner kindly responded:&quot;I&#39;m an inventor.&quot;</code></pre>
+<p>从此作者开始了寻找成为百万富翁的道路，这一段很有意思。</p>
+<p>大学毕业之后，作者并没有像他人一样去找工作，而是选择了创业做自己的事业。 但是一败涂地。 然后去了凤凰城，做了一个司机，因为很多人咨询道路的事情，咨询各种问题（当时还没有黄页）……作者制作了一个网站，自学coding、营销等技能，靠给别人做网站存活了一段时间，并把网站逐步养活了，最后以120万美元卖掉了这个网站。</p>
+<p>故事还没有结束，拿到120万后作者开始挥霍，然后科技泡沫破掉了，网站开始衰败死亡……作者又以25万美元回购网站，开始了真正的经营，the birth of the money tree。多年后，再次以790万美元出售了。</p>
+<p>作者轻描淡写讲完了自己的故事，但是中间有很多值得注意的地方：</p>
+<ol style="list-style-type: decimal">
+<li>作者在老家多年探索失败后，并没有气馁，选择了改变自己，去了凤凰城</li>
+<li>作者发家靠的是与更多客户接触后了解到需求，然后借助当时的互联网技术</li>
+<li>当依靠制作网站赚到钱以后，作者下意识注意到自己在用时间赚钱，不可持久</li>
+<li>整个故事期间，不断传播的是，奋斗、奋斗再奋斗</li>
+<li>回购公司后，开始真正有了管理思维，逐步做到自己不需要上班公司就能够自动运转</li>
+</ol>
+<p>本章总结处，作者写道，名声或者特长并不是财富的前提；快车道的财富是指数增长的，而不是线性增长；改变可能随时发生。</p>
+<h2 id="part2-wealth-is-not-a-roadbut-a-road-trip">Part2 Wealth is Not a Road,But a Road Trip</h2>
+<h3 id="part2.chapter3">Part2.Chapter3</h3>
+<pre><code>Wealth is not a road, but a road trip.
+财富并不仅仅是道路，更是一段旅程
+
+Wealth is a process, not an event.
+财富是一个过程，而不是事件</code></pre>
+<p>你所见到的、听到的，都是过程的最终结果，是一个事件。大部分人忽略了过程，忽略了成功事件背后的努力、风险和牺牲，只关注到了脍炙人口的成功事件。<strong>最重要的是，成功需要异常努力的过程。</strong></p>
+<h4 id="财富旅程的公式">财富旅程的公式</h4>
+<pre><code>Success demands you focused exercise into the journey and tools of the journey(process) as opposed to the destination(event)
+财富旅程的公式：成功需要你关注在旅途、以及旅途工具(process)而不是最终的目的地(event)。</code></pre>
+<p>财富旅程的公式包括四个方面：</p>
+<ol style="list-style-type: decimal">
+<li>你的蓝图：组成了你的财务信念和你对财富和金钱的构想。有三种蓝图，分别是人行道(Sidewalk)、慢车道(Slowlane)和快车道(Fastlane)。你的蓝图需要指出为什么、哪里、如何以及什么。</li>
+<li>你的汽车：除了你自己没人能够在你的路途上行驶。这是一个复杂的系统，包括了然后、引擎、加速器等等，而所有的这些都需要市场调整、维护。</li>
+<li>你的路径：Your roads are the financial pathways you travel.</li>
+<li>你的速度：Speed is execution and your ability to go from idea to implementation.</li>
+</ol>
+<p>成功的快车道旅行者，像战士一样在艰难的道路上生存死去。 快车道之旅需要少有人能够承受的牺牲，需要少有人能够坚持的生存。</p>
+<p>总结：财富是一个公式，而不是组成元素；过程让人成为百万富翁，而成果事件只是副产品；财富旅途是无法外包给别人的，因为途中会出现智慧、成长、力量和事件。</p>
+<h3 id="part2.chapter4-the-roadmap-to-wealth">Part2.Chapter4 The Roadmap to wealth</h3>
+<p>你的财务蓝图(Roadmap)对于财富旅程有决定性意义，也是你的首个工具。</p>
+<pre><code>If you want to change your life, change your choices. To change your choices you must change your belief system. Your belief system is defined by your roadmap.
+如果你想改变你的生活，改变你的选择。要改变你的选择，你必须改变自己的信念系统。而财务蓝图则定义了你的信念系统。</code></pre>
+<p>无论你选择了哪一个蓝图，你的创造财富的经验将停留在该蓝图所对应的财富方程式。另外，每一个蓝图自然地倾向于某个特定的结果，包括：</p>
+<ol style="list-style-type: decimal">
+<li>人行道(Sidewalk)=》贫穷</li>
+<li>慢车道(Slowlane)=》中产/平庸(Mediocrity)</li>
+<li>快车道(Fastlane)=》财富</li>
+</ol>
+<p>每一种都包含了几组关键的理念，有：</p>
+<ol style="list-style-type: decimal">
+<li>债务观念：是你控制债务还是债务控制你？</li>
+<li>时间观念：你是如何利用自己的时间的？大量的？飞逝的？无足轻重的？</li>
+<li>教育观念：你生活中教育扮演什么样的角色？</li>
+<li>金钱观念：金钱在生活中扮演什么样的角色？工具还是玩具？丰富还是匮乏？</li>
+<li>主要收入来源：是什么？</li>
+<li>主要财富加速器：你如何让你的财富加速增长？或者你的财富有在增长？</li>
+<li>财富观念：你如何定义财富？</li>
+<li>财富方程式：你积累财富的数字计划是？什么财富公式定义了你的财富经验物理学？</li>
+<li>目标：有没有目标？如果有，是什么样子的呢？</li>
+<li>责任和控制：你是否掌控自己的生活以及财务计划？</li>
+<li>生活观念：你如何生活，对未来是否有规划？为了明天牺牲今天？为了今天牺牲明天？</li>
+</ol>
+<p>总结：为了强制改变，改变需要从你的信念，而你的蓝图描述了这些信念；每一个蓝图都包含了一组走向某个财务目的地的财富公式。</p>
+<h2 id="part3-the-road-most-traveled-the-sidewalk">Part3 The Road Most Traveled: The Sidewalk</h2>
+<h3 id="part3.chapter5-the-sidewalk-roadmap">Part3.Chapter5 The Sidewalk Roadmap</h3>
+<p>大部分人所选择的道路都是人行道，选择了更快乐的今天而不是安全的明天，美名曰及时享乐。 关于人行道的几个观念(MindPosts)，摘抄如下：</p>
+<ol style="list-style-type: decimal">
+<li>债务观念：信用卡允许我现在就消费，信用卡、小额借贷、车贷等让我更好的享受今天</li>
+<li>时间观念：我有大量的时间，但是我及时行乐就像不再有明天，我们随时可能离去。</li>
+<li>教育观念：我总算离开学校了！离开学校教育就停止了</li>
+<li>金钱观念：拿到就花，为什么要储蓄？及时花光所有的收入</li>
+<li>主要的收入来源：追逐金钱，哪里给的多去哪里</li>
+<li>主要财富加速器：净资产？我常去赌博、购买乐透彩票，我和保险公司还有一个诉讼，算嘛？</li>
+<li>财富观念：财富生不带来死不带去，及时行乐</li>
+<li>财富公式：财富 = 收入 + 债务</li>
+<li>目标：什么是目标，我活在当下，及时行乐，从不考虑明天</li>
+<li>责任和控制：什么都是针对我而来，都是别人的问题</li>
+<li>生活观念：活在今天，生命太短暂，年轻只有一次，何须考虑明天，计划未来？我总有一天会成功的</li>
+</ol>
+<p>你可能会觉得这些想法非常荒唐可笑，但事实上很多人都是这样想的（我在看知乎上提及这个答案时，铁蛋也在旁边，在他看来，与其呆在慢车道不如及时享乐在人行道上，他还年轻没有那么多责任要扛）。</p>
+<p>如果你已经超过35岁，且净资产不超过$13,000美元，那么基本上可以判断，你现在的做法并不work，你需要一个新的财务蓝图(roadmap)</p>
+<p>人行道上的人，一般都是是低收入者，收入无法冲抵各种支出、借贷，却总想着及时行乐。走在人行道上将走向贫穷，因为人行道总是着眼于短期利益、短期享受，而不顾及长期，最终将导致用借贷来维持及时享乐。<strong>最荒唐的时，人行道上的人们，不断重复着这样的事情，而期待着有所不一样的结果。</strong></p>
+<h4 id="钱无法解决钱的问题">钱无法解决钱的问题</h4>
+<p>人行道对金钱是盲目的，并不会因为赚多少而有所改变，再多的钱也无法医治差劲的金钱管理方式。</p>
+<p>没有计划、没有储蓄，花得比赚的多，人行道上的财富公式是：财富 = 收入 + 债务。</p>
+<p>对于人行道而言，一年赚200万和2万将是同一个结局。收入对于财务规则是盲目的。</p>
+<h4 id="章节总结">章节总结</h4>
+<ol style="list-style-type: decimal">
+<li>人行道的首要标志是没有任何财务计划，及时享乐</li>
+<li>人行道的人，自然而然会走向贫穷，包括时间上和金钱上的贫穷</li>
+<li>钱无法解决钱的问题</li>
+<li>收入很高的人也可能依然走在人行道上，使用人行道的财务方法</li>
+<li>如果财富是用收入和债务定义的，那么财富就是虚的，因为当没有收入后，财富就消失了</li>
+</ol>
+<h3 id="part3.chapter6-has-your-wealth-been-toxified">Part3.Chapter6 Has Your Wealth Been Toxified?</h3>
+<p>我们的社会不断努力告诉我们，什么才是你的财富，信用卡消费、房子、车子等等，让你产生各种错觉。 作者认为，财富不是物质资产、金钱或“事物”，而是由三个F组成：</p>
+<ol style="list-style-type: decimal">
+<li>家庭Family(relationship)</li>
+<li>健康Fitness(health)</li>
+<li>自由Freedom(choice)</li>
+</ol>
+<p>在这三个元素中你可以找到真正的财富以及幸福。（Can’t agree more.）</p>
+<p>首先，财富是和人拥有像家庭一样的关系。不仅仅是你的家人，还包括各种people，你的社区圈子、你的神(宗教)、你的朋友。电影<a href="%22http://movie.douban.com/subject/1293749/%22">『A Wonderful Life』</a>告诉我们：</p>
+<pre><code>Remember, no man is a failure who has friedns.</code></pre>
+<p>财富是圈子，是对他人生活的影响，是无法独自体验的。作者说道，最幸福的时光，是身边围绕着一群家人、朋友或者其他深爱的人们。</p>
+<p>其次，财富是健康：身体健康、充满激情以及永无止境的能量。</p>
+<p>最后，财富是自由和选择：自由的选择生活的方式、时间、地点。</p>
+<h4 id="章节总结-1">章节总结</h4>
+<ol style="list-style-type: decimal">
+<li>财富是由强大的类似家庭关系(strong familial relationshiops)、舒适健康以及自由组成，而不是物质资产</li>
+<li>无法承担的物质资产对财富有破坏性</li>
+</ol>
+<h3 id="part3.chapter7-misuse-money-and-money-will-misuse-you">Part3.Chapter7 Misuse Money and Money Will Misuse You</h3>
+<p>金钱无法带来快乐，那么贫穷可以嘛？作者把这个问题归到了财富的三个组成，指出很多人都是被金钱所拥有，为了赚取金钱而失去了自由。</p>
+<pre><code>Freedom is a component to wealth and happiness.
+Those who live freer will be happier. 
+Those who have stronger bonds with their communities and families will be happier. 
+Those with health will be happier</code></pre>
+<p>社会已经给出了财富的定义，而平庸的人们接受了这样的定义，并变得更加平庸。<strong>平庸Normal是现代的奴隶制</strong>。</p>
+<p><strong>正确的使用金钱，应该用金钱来购买自由，自由可以换来更多选择。自由是组成财富的一个因素，有了自由可以更好的维护另外两个因素：健康和关系。</strong></p>
+<p>错误的使用金钱，形成一种恶性循环，让人不断失去自由：工作赚钱，用钱供给更好的生活，更好的生活逼着你花更多时间去工作赚更多的钱。</p>
+<h4 id="章节总结-2">章节总结</h4>
+<ol style="list-style-type: decimal">
+<li>钱无法买到幸福，适当的使用金钱，可以购买自由，而自由会带来幸福</li>
+<li>幸福来自健康、自由已经强关系，而钱不是必要的</li>
+<li>奴隶式的生活方式，窃取了幸福、财富</li>
+</ol>
+<h3 id="part3.chapter8-lucky-bastards-play-the-game">Part3.Chapter8 Lucky Bastards Play the Game！</h3>
+<p>就像财富，运气并不是一个时间，而是一系列的奋斗流程。运气是奋斗流程的产物。</p>
+<p>而人行道相信财富需要运气、财富是一个时间，其他会讲财富给自己。</p>
+<h4 id="章节总结-3">章节总结</h4>
+<ol style="list-style-type: decimal">
+<li>通过一系列的努力，可以提高可能性，也就产生了所谓幸运</li>
+<li>如果你觉得自己在撞大运，那你就是事件驱动的，而非流程，这是人行道思维</li>
+</ol>
+<h3 id="part3.chapter9-wealth-demands-accountablity">Part3.Chapter9 Wealth Demands Accountablity</h3>
+<p>除了相信运气和事件，责备(他人)是人行道的另一个特征。</p>
+<p>快车道的人讲究控制，而如果你是人行道思维，那么就毫无控制可言。</p>
+<h4 id="章节总结-4">章节总结</h4>
+<ol style="list-style-type: decimal">
+<li>人行道将财务计划的控制权交给别人</li>
+<li>受害者法则：除非你将权利交给别人，否则别人无法加害于你</li>
+<li>你的责任决定了你的选择</li>
+<li>承担责任是获取生活控制权的第一步</li>
+</ol>
+<h2 id="part4-mediocrity-the-slowlane-roadmap">Part4 Mediocrity: The Slowlane Roadmap</h2>
+<h3 id="part4.chapter10-the-lie-youve-been-sold-slowlane">Part4.Chapter10 The Lie You’ve Been Sold: Slowlane</h3>
+<p>人行道及时行乐，用未来的债务换取今日的快乐，及时行乐；而慢车道就是牺牲今天来换取对更光明、更自由的未来的希望。</p>
+<p>伴随着人的成长、责任的增加，慢车道是人们跳出人行道后的第一个选择。大部分大学生毕业后也就是进入了慢车道。慢车道就像是在加油站的一个错误指向，只是不来自陌生人，而是来自你所信任的人，老师、电视、财务顾问以及我们的父母。</p>
+<p>慢慢致富背后的主要动力是时间，用于工作的时间和投资在市场中的时间，也就是说，慢车道的人在用绳命博未来，抱着一种所谓的希望。</p>
+<p>关于慢车道的几个观念(MindPosts)，摘抄如下：</p>
+<ol style="list-style-type: decimal">
+<li>债务观念：债务是恶魔，必须要偿清债务，就算一辈子加班</li>
+<li>时间观念：我有大量的时间，我很乐意拿我的时间换更多的金钱，我工作得越多就能还越多债、存越多钱</li>
+<li>教育观念：教育很重要，教育可以帮助我提升工资收入</li>
+<li>金钱观念：每一分钱都必须用于还债、预算和储蓄，我必须保证在我65岁退休时有钱花</li>
+<li>主要的收入来源：工作是唯一收入来源</li>
+<li>主要财富加速器：复合利率是非常强大的工具，还有共同基金、401K等投资方式</li>
+<li>财富观念：工作，储蓄然后投资。这样重复40年直到退休的时候，如果运气好市场将有12%每年的回报</li>
+<li>财富公式：财富 = 工作 + 市场投资</li>
+<li>目标：在晚年能够有个舒适的退休</li>
+<li>责任和控制：养家糊口是我的责任，但是我需要依靠他人，包括我的雇主、财务顾问、政府以及经济环境</li>
+<li>生活观念：勤俭节约，放弃大梦想。储蓄，节省，不冒任何毫无必要的风险，总有一天到我退休的时候我就是百万富翁了</li>
+</ol>
+<p>那么你如何直到自己是否已经被骗上了慢车道了呢？下面列举了慢车道财务道路上，比较常见的、固有的几个说法：</p>
+<ul>
+<li>上学</li>
+<li>获取好成绩</li>
+<li>毕业</li>
+<li>首先支付你自己Pay yourself first</li>
+<li>加班</li>
+<li>公司上升通道（Corporateladder）</li>
+<li>把你工资的X%存起来</li>
+<li>投资你的401(K)，有点类似养老保险啥的</li>
+<li>投资共同基金</li>
+<li>购买并持有</li>
+<li>薪水、养老金、福利</li>
+<li>多样化</li>
+<li>提升保险</li>
+<li>股票市场</li>
+<li>不喝昂贵的拿铁</li>
+<li>勤俭节约</li>
+<li>还清债务</li>
+<li>收集打折券</li>
+<li>注销信用卡</li>
+<li>定额美元定期购买证券法Dollar cost averaging</li>
+<li>获得更高的学位</li>
+<li>尽早付清房贷</li>
+<li>房子一个资产</li>
+<li>个人退休账户 Idividual Retirement Accounts (IRAs)</li>
+<li>量入为出 Live below your means</li>
+<li>理解复利的强大（Understand compound interest）</li>
+</ul>
+<p>问题是把慢车道作为整个财务计划，而不仅仅是财务计划的一部分。这个区别是恨严格的，因为财务计划必须转化成财富行动。</p>
+<pre><code>The Slowlane as a total plan is the problem, not the Slowlane being a part of a plan. 
+This distinction is critical because finacial discipline must transcend to any wealth campaign.</code></pre>
+<h4 id="the-slowlane-roadmap-a-mathematical-introduction">The Slowlane roadmap: A Mathematical Introduction</h4>
+
+                <hr>
+                
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/posts/201503062015-03-06.html" data-toggle="tooltip" data-placement="top"
+                           title="交易账户是互联网金融平台的核心">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/posts/201405102014-05-10.html" data-toggle="tooltip" data-placement="top"
+                           title="记一次培训《高效沟通》">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#part1-get-rich-slow-is-get-rich-old"><span class="toc-text">Part1 “Get rich slow” is Get Rich Old</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#part1.chapter1"><span class="toc-text">Part1.Chapter1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#part2-wealth-is-not-a-roadbut-a-road-trip"><span class="toc-text">Part2 Wealth is Not a Road,But a Road Trip</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#part2.chapter3"><span class="toc-text">Part2.Chapter3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#财富旅程的公式"><span class="toc-text">财富旅程的公式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#part2.chapter4-the-roadmap-to-wealth"><span class="toc-text">Part2.Chapter4 The Roadmap to wealth</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#part3-the-road-most-traveled-the-sidewalk"><span class="toc-text">Part3 The Road Most Traveled: The Sidewalk</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#part3.chapter5-the-sidewalk-roadmap"><span class="toc-text">Part3.Chapter5 The Sidewalk Roadmap</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#钱无法解决钱的问题"><span class="toc-text">钱无法解决钱的问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#章节总结"><span class="toc-text">章节总结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#part3.chapter6-has-your-wealth-been-toxified"><span class="toc-text">Part3.Chapter6 Has Your Wealth Been Toxified?</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#章节总结-1"><span class="toc-text">章节总结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#part3.chapter7-misuse-money-and-money-will-misuse-you"><span class="toc-text">Part3.Chapter7 Misuse Money and Money Will Misuse You</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#章节总结-2"><span class="toc-text">章节总结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#part3.chapter8-lucky-bastards-play-the-game"><span class="toc-text">Part3.Chapter8 Lucky Bastards Play the Game！</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#章节总结-3"><span class="toc-text">章节总结</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#part3.chapter9-wealth-demands-accountablity"><span class="toc-text">Part3.Chapter9 Wealth Demands Accountablity</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#章节总结-4"><span class="toc-text">章节总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#part4-mediocrity-the-slowlane-roadmap"><span class="toc-text">Part4 Mediocrity: The Slowlane Roadmap</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#part4.chapter10-the-lie-youve-been-sold-slowlane"><span class="toc-text">Part4.Chapter10 The Lie You’ve Been Sold: Slowlane</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#the-slowlane-roadmap-a-mathematical-introduction"><span class="toc-text">The Slowlane roadmap: A Mathematical Introduction</span></a></li></ol></li></ol></li></ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <br>
+                <ul class="list-inline text-center">
+                
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+                
+                
+
+                
+                    <li>
+                        <a target="_blank" href="http://weibo.com/slowlifeterry">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                
+                    <li>
+                        <a target="_blank"  href="https://github.com/iterryzhao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; 潜光 2017
+                    <br>
+                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
+                    <br>
+                    Theme by <a href="https://haojen.github.io/">Haojen Ma</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/blog.js"></script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://terryzhao.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','null','2.0.0');
+</script>
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!--wechat title img-->
+<img class="wechat-title-img" src="null">
+</body>
+
+</html>
