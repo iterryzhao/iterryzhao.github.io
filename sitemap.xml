@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://terryzhao.com/posts/201705022017-05-02.html</loc>
+    <loc>http://terryzhao.com/posts/20170509xuezhaofeng/2017-05-09.html</loc>
     
-    <lastmod>2017-05-02T13:18:02.000Z</lastmod>
+    <lastmod>2017-05-10T05:02:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://terryzhao.com/posts/201704042017-04-04.html</loc>
+    
+    <lastmod>2017-05-08T14:44:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://terryzhao.com/posts/201502012015-02-01.html</loc>
+    
+    <lastmod>2017-05-08T14:28:00.000Z</lastmod>
     
   </url>
   
@@ -58,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://terryzhao.com/posts/201502012015-02-01.html</loc>
-    
-    <lastmod>2017-04-26T14:12:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://terryzhao.com/posts/201503062015-03-06.html</loc>
     
     <lastmod>2017-04-26T14:11:59.000Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>http://terryzhao.com/tags/index.html</loc>
     
     <lastmod>2017-04-10T13:31:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://terryzhao.com/posts/20170404testlongfile.html</loc>
-    
-    <lastmod>2017-04-04T07:39:18.000Z</lastmod>
     
   </url>
   
